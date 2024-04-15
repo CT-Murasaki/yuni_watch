@@ -1,7 +1,8 @@
-# javascript-game-sample
+虚無ゲーです
+JS初心者が作ったので色々アレです
 
-**javascript-game-sample**はJavaScriptでAkashicのゲームを作る際のサンプルプロジェクトです。
 
+----以下サンプルソフトの説明文----
 ## 利用方法
 
  `javascript-game-sample` を利用するにはNode.jsが必要です。
