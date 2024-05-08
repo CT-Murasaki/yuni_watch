@@ -1,6 +1,6 @@
 {
 	"width": 1280,
-	"height": 550,
+	"height": 720,
 	"fps": 10,
 	"main": "./script/_bootstrap.js",
 	"assets": {
@@ -16,766 +16,148 @@
 		},
 		"main1": {
          "type": "image",
-         "width": 346,
-         "height": 550,
-         "path": "image/main (1).jpg"
+         "width": 700,
+         "height": 720,
+         "path": "image/main[1].jpg"
       },
-      "main2": {
+		"main2": {
          "type": "image",
-         "width": 346,
-         "height": 550,
-         "path": "image/main (2).jpg"
+         "width": 700,
+         "height": 720,
+         "path": "image/main[2].jpg"
       },
       "main3": {
          "type": "image",
-         "width": 346,
-         "height": 550,
-         "path": "image/main (3).jpg"
+         "width": 700,
+         "height": 720,
+         "path": "image/main[3].jpg"
       },
       "main4": {
          "type": "image",
-         "width": 346,
-         "height": 550,
-         "path": "image/main (4).jpg"
+         "width": 700,
+         "height": 720,
+         "path": "image/main[4].jpg"
       },
       "main5": {
          "type": "image",
-         "width": 346,
-         "height": 550,
-         "path": "image/main (5).jpg"
+         "width": 700,
+         "height": 720,
+         "path": "image/main[5].jpg"
       },
       "main6": {
          "type": "image",
-         "width": 346,
-         "height": 550,
-         "path": "image/main (6).jpg"
+         "width": 700,
+         "height": 720,
+         "path": "image/main[6].jpg"
       },
       "main7": {
          "type": "image",
-         "width": 346,
-         "height": 550,
-         "path": "image/main (7).jpg"
+         "width": 700,
+         "height": 720,
+         "path": "image/main[7].jpg"
       },
       "main8": {
          "type": "image",
-         "width": 346,
-         "height": 550,
-         "path": "image/main (8).jpg"
+         "width": 700,
+         "height": 720,
+         "path": "image/main[8].jpg"
       },
       "main9": {
          "type": "image",
-         "width": 346,
-         "height": 550,
-         "path": "image/main (9).jpg"
+         "width": 700,
+         "height": 720,
+         "path": "image/main[9].jpg"
       },
       "main10": {
          "type": "image",
-         "width": 346,
-         "height": 550,
-         "path": "image/main (10).jpg"
+         "width": 700,
+         "height": 720,
+         "path": "image/main[10].jpg"
       },
-      "main11": {
+		"main11": {
          "type": "image",
-         "width": 346,
-         "height": 550,
-         "path": "image/main (11).jpg"
+         "width": 700,
+         "height": 720,
+         "path": "image/main[11].jpg"
       },
-      "main12": {
+		"main12": {
          "type": "image",
-         "width": 346,
-         "height": 550,
-         "path": "image/main (12).jpg"
+         "width": 700,
+         "height": 720,
+         "path": "image/main[12].jpg"
       },
       "main13": {
          "type": "image",
-         "width": 346,
-         "height": 550,
-         "path": "image/main (13).jpg"
+         "width": 700,
+         "height": 720,
+         "path": "image/main[13].jpg"
       },
       "main14": {
          "type": "image",
-         "width": 346,
-         "height": 550,
-         "path": "image/main (14).jpg"
+         "width": 700,
+         "height": 720,
+         "path": "image/main[14].jpg"
       },
       "main15": {
          "type": "image",
-         "width": 346,
-         "height": 550,
-         "path": "image/main (15).jpg"
+         "width": 700,
+         "height": 720,
+         "path": "image/main[15].jpg"
       },
       "main16": {
          "type": "image",
-         "width": 346,
-         "height": 550,
-         "path": "image/main (16).jpg"
+         "width": 700,
+         "height": 720,
+         "path": "image/main[16].jpg"
       },
       "main17": {
          "type": "image",
-         "width": 346,
-         "height": 550,
-         "path": "image/main (17).jpg"
+         "width": 700,
+         "height": 720,
+         "path": "image/main[17].jpg"
       },
       "main18": {
          "type": "image",
-         "width": 346,
-         "height": 550,
-         "path": "image/main (18).jpg"
+         "width": 700,
+         "height": 720,
+         "path": "image/main[18].jpg"
       },
       "main19": {
          "type": "image",
-         "width": 346,
-         "height": 550,
-         "path": "image/main (19).jpg"
+         "width": 700,
+         "height": 720,
+         "path": "image/main[19].jpg"
       },
       "main20": {
          "type": "image",
-         "width": 346,
-         "height": 550,
-         "path": "image/main (20).jpg"
+         "width": 700,
+         "height": 720,
+         "path": "image/main[20].jpg"
       },
-      "main21": {
+		"main21": {
          "type": "image",
-         "width": 346,
-         "height": 550,
-         "path": "image/main (21).jpg"
+         "width": 700,
+         "height": 720,
+         "path": "image/main[21].jpg"
       },
-      "main22": {
+		"main22": {
          "type": "image",
-         "width": 346,
-         "height": 550,
-         "path": "image/main (22).jpg"
+         "width": 700,
+         "height": 720,
+         "path": "image/main[22].jpg"
       },
       "main23": {
          "type": "image",
-         "width": 346,
-         "height": 550,
-         "path": "image/main (23).jpg"
+         "width": 700,
+         "height": 720,
+         "path": "image/main[23].jpg"
       },
       "main24": {
          "type": "image",
-         "width": 346,
-         "height": 550,
-         "path": "image/main (24).jpg"
-      },
-      "main25": {
-         "type": "image",
-         "width": 346,
-         "height": 550,
-         "path": "image/main (25).jpg"
-      },
-      "main26": {
-         "type": "image",
-         "width": 346,
-         "height": 550,
-         "path": "image/main (26).jpg"
-      },
-      "main27": {
-         "type": "image",
-         "width": 346,
-         "height": 550,
-         "path": "image/main (27).jpg"
-      },
-      "main28": {
-         "type": "image",
-         "width": 346,
-         "height": 550,
-         "path": "image/main (28).jpg"
-      },
-      "main29": {
-         "type": "image",
-         "width": 346,
-         "height": 550,
-         "path": "image/main (29).jpg"
-      },
-      "main30": {
-         "type": "image",
-         "width": 346,
-         "height": 550,
-         "path": "image/main (30).jpg"
-      },
-      "main31": {
-         "type": "image",
-         "width": 346,
-         "height": 550,
-         "path": "image/main (31).jpg"
-      },
-      "main32": {
-         "type": "image",
-         "width": 346,
-         "height": 550,
-         "path": "image/main (32).jpg"
-      },
-      "main33": {
-         "type": "image",
-         "width": 346,
-         "height": 550,
-         "path": "image/main (33).jpg"
-      },
-      "main34": {
-         "type": "image",
-         "width": 346,
-         "height": 550,
-         "path": "image/main (34).jpg"
-      },
-      "main35": {
-         "type": "image",
-         "width": 346,
-         "height": 550,
-         "path": "image/main (35).jpg"
-      },
-      "main36": {
-         "type": "image",
-         "width": 346,
-         "height": 550,
-         "path": "image/main (36).jpg"
-      },
-      "main37": {
-         "type": "image",
-         "width": 346,
-         "height": 550,
-         "path": "image/main (37).jpg"
-      },
-      "main38": {
-         "type": "image",
-         "width": 346,
-         "height": 550,
-         "path": "image/main (38).jpg"
-      },
-      "main39": {
-         "type": "image",
-         "width": 346,
-         "height": 550,
-         "path": "image/main (39).jpg"
-      },
-      "main40": {
-         "type": "image",
-         "width": 346,
-         "height": 550,
-         "path": "image/main (40).jpg"
-      },
-      "main41": {
-         "type": "image",
-         "width": 346,
-         "height": 550,
-         "path": "image/main (41).jpg"
-      },
-      "main42": {
-         "type": "image",
-         "width": 346,
-         "height": 550,
-         "path": "image/main (42).jpg"
-      },
-      "main43": {
-         "type": "image",
-         "width": 346,
-         "height": 550,
-         "path": "image/main (43).jpg"
-      },
-      "main44": {
-         "type": "image",
-         "width": 346,
-         "height": 550,
-         "path": "image/main (44).jpg"
-      },
-      "main45": {
-         "type": "image",
-         "width": 346,
-         "height": 550,
-         "path": "image/main (45).jpg"
-      },
-      "main46": {
-         "type": "image",
-         "width": 346,
-         "height": 550,
-         "path": "image/main (46).jpg"
-      },
-      "main47": {
-         "type": "image",
-         "width": 346,
-         "height": 550,
-         "path": "image/main (47).jpg"
-      },
-      "main48": {
-         "type": "image",
-         "width": 346,
-         "height": 550,
-         "path": "image/main (48).jpg"
-      },
-      "main49": {
-         "type": "image",
-         "width": 346,
-         "height": 550,
-         "path": "image/main (49).jpg"
-      },
-      "main50": {
-         "type": "image",
-         "width": 346,
-         "height": 550,
-         "path": "image/main (50).jpg"
-      },
-      "main51": {
-         "type": "image",
-         "width": 346,
-         "height": 550,
-         "path": "image/main (51).jpg"
-      },
-      "main52": {
-         "type": "image",
-         "width": 346,
-         "height": 550,
-         "path": "image/main (52).jpg"
-      },
-      "main53": {
-         "type": "image",
-         "width": 346,
-         "height": 550,
-         "path": "image/main (53).jpg"
-      },
-      "main54": {
-         "type": "image",
-         "width": 346,
-         "height": 550,
-         "path": "image/main (54).jpg"
-      },
-      "main55": {
-         "type": "image",
-         "width": 346,
-         "height": 550,
-         "path": "image/main (55).jpg"
-      },
-      "main56": {
-         "type": "image",
-         "width": 346,
-         "height": 550,
-         "path": "image/main (56).jpg"
-      },
-      "main57": {
-         "type": "image",
-         "width": 346,
-         "height": 550,
-         "path": "image/main (57).jpg"
-      },
-      "main58": {
-         "type": "image",
-         "width": 346,
-         "height": 550,
-         "path": "image/main (58).jpg"
-      },
-      "main59": {
-         "type": "image",
-         "width": 346,
-         "height": 550,
-         "path": "image/main (59).jpg"
-      },
-      "main60": {
-         "type": "image",
-         "width": 346,
-         "height": 550,
-         "path": "image/main (60).jpg"
-      },
-      "main61": {
-         "type": "image",
-         "width": 346,
-         "height": 550,
-         "path": "image/main (61).jpg"
-      },
-      "main62": {
-         "type": "image",
-         "width": 346,
-         "height": 550,
-         "path": "image/main (62).jpg"
-      },
-      "main63": {
-         "type": "image",
-         "width": 346,
-         "height": 550,
-         "path": "image/main (63).jpg"
-      },
-      "main64": {
-         "type": "image",
-         "width": 346,
-         "height": 550,
-         "path": "image/main (64).jpg"
-      },
-      "main65": {
-         "type": "image",
-         "width": 346,
-         "height": 550,
-         "path": "image/main (65).jpg"
-      },
-      "main66": {
-         "type": "image",
-         "width": 346,
-         "height": 550,
-         "path": "image/main (66).jpg"
-      },
-      "main67": {
-         "type": "image",
-         "width": 346,
-         "height": 550,
-         "path": "image/main (67).jpg"
-      },
-      "main68": {
-         "type": "image",
-         "width": 346,
-         "height": 550,
-         "path": "image/main (68).jpg"
-      },
-      "main69": {
-         "type": "image",
-         "width": 346,
-         "height": 550,
-         "path": "image/main (69).jpg"
-      },
-      "main70": {
-         "type": "image",
-         "width": 346,
-         "height": 550,
-         "path": "image/main (70).jpg"
-      },
-      "main71": {
-         "type": "image",
-         "width": 346,
-         "height": 550,
-         "path": "image/main (71).jpg"
-      },
-      "main72": {
-         "type": "image",
-         "width": 346,
-         "height": 550,
-         "path": "image/main (72).jpg"
-      },
-      "main73": {
-         "type": "image",
-         "width": 346,
-         "height": 550,
-         "path": "image/main (73).jpg"
-      },
-      "main74": {
-         "type": "image",
-         "width": 346,
-         "height": 550,
-         "path": "image/main (74).jpg"
-      },
-      "main75": {
-         "type": "image",
-         "width": 346,
-         "height": 550,
-         "path": "image/main (75).jpg"
-      },
-      "main76": {
-         "type": "image",
-         "width": 346,
-         "height": 550,
-         "path": "image/main (76).jpg"
-      },
-      "main77": {
-         "type": "image",
-         "width": 346,
-         "height": 550,
-         "path": "image/main (77).jpg"
-      },
-      "main78": {
-         "type": "image",
-         "width": 346,
-         "height": 550,
-         "path": "image/main (78).jpg"
-      },
-      "main79": {
-         "type": "image",
-         "width": 346,
-         "height": 550,
-         "path": "image/main (79).jpg"
-      },
-      "main80": {
-         "type": "image",
-         "width": 346,
-         "height": 550,
-         "path": "image/main (80).jpg"
-      },
-      "main81": {
-         "type": "image",
-         "width": 346,
-         "height": 550,
-         "path": "image/main (81).jpg"
-      },
-      "main82": {
-         "type": "image",
-         "width": 346,
-         "height": 550,
-         "path": "image/main (82).jpg"
-      },
-      "main83": {
-         "type": "image",
-         "width": 346,
-         "height": 550,
-         "path": "image/main (83).jpg"
-      },
-      "main84": {
-         "type": "image",
-         "width": 346,
-         "height": 550,
-         "path": "image/main (84).jpg"
-      },
-      "main85": {
-         "type": "image",
-         "width": 346,
-         "height": 550,
-         "path": "image/main (85).jpg"
-      },
-      "main86": {
-         "type": "image",
-         "width": 346,
-         "height": 550,
-         "path": "image/main (86).jpg"
-      },
-      "main87": {
-         "type": "image",
-         "width": 346,
-         "height": 550,
-         "path": "image/main (87).jpg"
-      },
-      "main88": {
-         "type": "image",
-         "width": 346,
-         "height": 550,
-         "path": "image/main (88).jpg"
-      },
-      "main89": {
-         "type": "image",
-         "width": 346,
-         "height": 550,
-         "path": "image/main (89).jpg"
-      },
-      "main90": {
-         "type": "image",
-         "width": 346,
-         "height": 550,
-         "path": "image/main (90).jpg"
-      },
-      "main91": {
-         "type": "image",
-         "width": 346,
-         "height": 550,
-         "path": "image/main (91).jpg"
-      },
-      "main92": {
-         "type": "image",
-         "width": 346,
-         "height": 550,
-         "path": "image/main (92).jpg"
-      },
-      "main93": {
-         "type": "image",
-         "width": 346,
-         "height": 550,
-         "path": "image/main (93).jpg"
-      },
-      "main94": {
-         "type": "image",
-         "width": 346,
-         "height": 550,
-         "path": "image/main (94).jpg"
-      },
-      "main95": {
-         "type": "image",
-         "width": 346,
-         "height": 550,
-         "path": "image/main (95).jpg"
-      },
-      "main96": {
-         "type": "image",
-         "width": 346,
-         "height": 550,
-         "path": "image/main (96).jpg"
-      },
-      "main97": {
-         "type": "image",
-         "width": 346,
-         "height": 550,
-         "path": "image/main (97).jpg"
-      },
-      "main98": {
-         "type": "image",
-         "width": 346,
-         "height": 550,
-         "path": "image/main (98).jpg"
-      },
-      "main99": {
-         "type": "image",
-         "width": 346,
-         "height": 550,
-         "path": "image/main (99).jpg"
-      },
-      "main100": {
-         "type": "image",
-         "width": 346,
-         "height": 550,
-         "path": "image/main (100).jpg"
-      },
-      "main101": {
-         "type": "image",
-         "width": 346,
-         "height": 550,
-         "path": "image/main (101).jpg"
-      },
-      "main102": {
-         "type": "image",
-         "width": 346,
-         "height": 550,
-         "path": "image/main (102).jpg"
-      },
-      "main103": {
-         "type": "image",
-         "width": 346,
-         "height": 550,
-         "path": "image/main (103).jpg"
-      },
-      "main104": {
-         "type": "image",
-         "width": 346,
-         "height": 550,
-         "path": "image/main (104).jpg"
-      },
-      "main105": {
-         "type": "image",
-         "width": 346,
-         "height": 550,
-         "path": "image/main (105).jpg"
-      },
-      "main106": {
-         "type": "image",
-         "width": 346,
-         "height": 550,
-         "path": "image/main (106).jpg"
-      },
-      "main107": {
-         "type": "image",
-         "width": 346,
-         "height": 550,
-         "path": "image/main (107).jpg"
-      },
-      "main108": {
-         "type": "image",
-         "width": 346,
-         "height": 550,
-         "path": "image/main (108).jpg"
-      },
-      "main109": {
-         "type": "image",
-         "width": 346,
-         "height": 550,
-         "path": "image/main (109).jpg"
-      },
-      "main110": {
-         "type": "image",
-         "width": 346,
-         "height": 550,
-         "path": "image/main (110).jpg"
-      },
-      "main111": {
-         "type": "image",
-         "width": 346,
-         "height": 550,
-         "path": "image/main (111).jpg"
-      },
-      "main112": {
-         "type": "image",
-         "width": 346,
-         "height": 550,
-         "path": "image/main (112).jpg"
-      },
-      "main113": {
-         "type": "image",
-         "width": 346,
-         "height": 550,
-         "path": "image/main (113).jpg"
-      },
-      "main114": {
-         "type": "image",
-         "width": 346,
-         "height": 550,
-         "path": "image/main (114).jpg"
-      },
-      "main115": {
-         "type": "image",
-         "width": 346,
-         "height": 550,
-         "path": "image/main (115).jpg"
-      },
-      "main116": {
-         "type": "image",
-         "width": 346,
-         "height": 550,
-         "path": "image/main (116).jpg"
-      },
-      "main117": {
-         "type": "image",
-         "width": 346,
-         "height": 550,
-         "path": "image/main (117).jpg"
-      },
-      "main118": {
-         "type": "image",
-         "width": 346,
-         "height": 550,
-         "path": "image/main (118).jpg"
-      },
-      "main119": {
-         "type": "image",
-         "width": 346,
-         "height": 550,
-         "path": "image/main (119).jpg"
-      },
-      "main120": {
-         "type": "image",
-         "width": 346,
-         "height": 550,
-         "path": "image/main (120).jpg"
-      },
-      "main121": {
-         "type": "image",
-         "width": 346,
-         "height": 550,
-         "path": "image/main (121).jpg"
-      },
-      "main122": {
-         "type": "image",
-         "width": 346,
-         "height": 550,
-         "path": "image/main (122).jpg"
-      },
-      "main123": {
-         "type": "image",
-         "width": 346,
-         "height": 550,
-         "path": "image/main (123).jpg"
-      },
-      "main124": {
-         "type": "image",
-         "width": 346,
-         "height": 550,
-         "path": "image/main (124).jpg"
-      },
-      "main125": {
-         "type": "image",
-         "width": 346,
-         "height": 550,
-         "path": "image/main (125).jpg"
-      },
-      "main126": {
-         "type": "image",
-         "width": 346,
-         "height": 550,
-         "path": "image/main (126).jpg"
-      },
-		"se_finish": {
-			"type": "audio",
-			"path": "audio/se_finish",
-			"systemId": "sound",
-			"duration": 1080
-		}
+         "width": 700,
+         "height": 720,
+         "path": "image/main[24].jpg"
+      }
 	},
    "moduleMainScripts": {},
 	"environment": {

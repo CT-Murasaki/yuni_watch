@@ -1,5 +1,3 @@
-//■■■■■■■■■■■■　 ここまでコピペ用 　■■■■■■■■■■■■
-
 exports.main = void 0;
 
 function main(param) {
@@ -8,11 +6,10 @@ function main(param) {
 
 function makescene(param) {
     let mainList = []
-    let imagenum = 126;
+    let imagenum = 24;
     for (let i = 1; i <= imagenum; i++){
         mainList.push("main" + i);
     }
-    mainList.push("se_finish");
 
     let scene = new g.Scene({
         game: g.game,
@@ -73,35 +70,18 @@ function makescene(param) {
                 images[gameimage].invalidate();
 
                 switch (gameimage){
-                    case 3:
-                    case 26:
-                    case 60:
-                    case 61:
-                    case 83:
-                    case 87:
-                    case 89:
-                    case 99:
-                    case 114:
-                    case 120:
-                    case 122:
-                    case 123:
-                    case 125:
-                        score += g.game.random.get(0, 10000);
+                    case 19:
+                        score += g.game.random.get(1, 10000);
                         closeingcnt += 1;
                         break;
 
-                    case 74:
-                    case 100:
+                    case 24:
                         score += 10000;
-                        break;
-
-                    case 104:
-                        score += 100000;
                         closeingcnt += 1;
                         break;
 
                     default:
-                        score += g.game.random.get(0, 10000);
+                        score += g.game.random.get(1, 10000);
                 }
                 scoreLabel.text = "SCORE: " + score;
                 scoreLabel.invalidate();
@@ -124,14 +104,12 @@ function makescene(param) {
                     images[i].invalidate();
                 }
                 if (correction == false){
-                    g.game.vars.gameState.score = Math.ceil(score + (score * closeingcnt * 0.01));
+                    g.game.vars.gameState.score = Math.floor(score * (1 + 0.01 * closeingcnt));
                     correction = true;
                 }
                 
             }
         });
-        // ■■■■■■■■■■■■　 終了処理　　■■■■■■■■■■■■
-        // ここまでゲーム内容を記述します
     });
 
     return scene;
