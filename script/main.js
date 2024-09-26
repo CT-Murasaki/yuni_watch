@@ -6,7 +6,7 @@ function main(param) {
 
 function makescene(param) {
     let mainList = []
-    let imagenum = 24;
+    let imagenum = 67;
     for (let i = 1; i <= imagenum; i++){
         mainList.push("main" + i);
     }
@@ -53,7 +53,7 @@ function makescene(param) {
         for (let i = 1; i <= imagenum; i++) {
             images[i] = new g.FrameSprite({
                 scene: scene, src: scene.assets["main" + i],
-                x: g.game.width / 3,opacity: 0
+                x: g.game.width / 3,opacity: 1, hidden:true
             });
             scene.append(images[i]);
         }
@@ -66,18 +66,24 @@ function makescene(param) {
             gametime += 1 / g.game.fps; 
             if (gametime <= 15){
                 gameimage = g.game.random.get(1, imagenum);
-                images[gameimage].opacity = 1;
-                images[gameimage].invalidate();
+                images[gameimage].show();
 
                 switch (gameimage){
-                    case 19:
+                    case 1,10,42,52:
                         score += g.game.random.get(1, 10000);
                         closeingcnt += 1;
                         break;
 
-                    case 24:
+                    case 17:
                         score += 10000;
                         closeingcnt += 1;
+                        break;
+
+                    case 13,32,35:
+                        score += 10000;
+                        break;
+
+                    case 15,36:
                         break;
 
                     default:
@@ -89,22 +95,21 @@ function makescene(param) {
                 closeingLabel.invalidate();
                 for (let i = 1; i <= imagenum; i++) {
                     if (gameimage != i){
-                        images[i].opacity = 0;
-                        images[i].invalidate();
+                        images[i].hide();
                     }  
                 }
             }
             else{
-                scoreLabel.opacity = 0;
-                scoreLabel.invalidate();
-                closeingLabel.opacity = 0;
-                closeingLabel.invalidate();
+                scoreLabel.hide();
+                closeingLabel.hide();
                 for (let i = 1; i <= imagenum; i++) {
-                    images[i].opacity = 0;
-                    images[i].invalidate();
+                    images[i].hide();
                 }
                 if (correction == false){
-                    g.game.vars.gameState.score = Math.floor(score * (1 + 0.01 * closeingcnt));
+                    let scorevar = Math.floor(score * (1 + 0.01 * closeingcnt));
+                    for (let i = 1; i <= 5; i++) {
+                        g.game.vars.gameState.score = scorevar;
+                    }
                     correction = true;
                 }
                 
