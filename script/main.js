@@ -34,7 +34,7 @@ function makescene(param) {
             text: "SCORE: 0",
             font: font,
             fontSize: font.size / 2,
-            textColor: "white"
+            textColor: "black"
         });
         scene.append(scoreLabel);
         let closeingLabel = new g.Label({
@@ -43,20 +43,18 @@ function makescene(param) {
             font: font,
             fontSize: font.size / 2,
             anchorY: -1,
-            textColor: "white"
+            textColor: "black"
         });
         scene.append(closeingLabel);
 
         let score = 0;
         let closeingcnt = 0;
-        let images = [];
-        for (let i = 1; i <= imagenum; i++) {
-            images[i] = new g.FrameSprite({
-                scene: scene, src: scene.assets["main" + i],
-                x: g.game.width / 3,opacity: 1, hidden:true
-            });
-            scene.append(images[i]);
-        }
+        let images = new g.FrameSprite({
+            scene: scene, src: scene.assets["main" + 1],
+            x: g.game.width / 3,opacity: 1
+        });
+        scene.append(images);
+        images.invalidate();
         
         let gametime = 0;
         let gameimage = 0;
@@ -66,7 +64,8 @@ function makescene(param) {
             gametime += 1 / g.game.fps; 
             if (gametime <= 15){
                 gameimage = g.game.random.get(1, imagenum);
-                images[gameimage].show();
+                images.src = scene.assets["main" + gameimage];
+                images.invalidate();
 
                 switch (gameimage){
                     case 1,10,42,52:
@@ -93,26 +92,15 @@ function makescene(param) {
                 scoreLabel.invalidate();
                 closeingLabel.text = "口が閉じた回数: " + closeingcnt;
                 closeingLabel.invalidate();
-                for (let i = 1; i <= imagenum; i++) {
-                    if (gameimage != i){
-                        images[i].hide();
-                    }  
-                }
             }
-            else{
+            else if(correction == false){
                 scoreLabel.hide();
                 closeingLabel.hide();
-                for (let i = 1; i <= imagenum; i++) {
-                    images[i].hide();
-                }
-                if (correction == false){
-                    let scorevar = Math.floor(score * (1 + 0.01 * closeingcnt));
-                    for (let i = 1; i <= 5; i++) {
-                        g.game.vars.gameState.score = scorevar;
-                    }
-                    correction = true;
-                }
-                
+                images.hide();
+                let scorevar = Math.floor(score * (1 + 0.1 * closeingcnt));
+                g.game.vars.gameState.score = scorevar;
+                console.log(g.game.vars.gameState.score);
+                correction = true;   
             }
         });
     });

@@ -1,2 +1,2 @@
 cd "C:\niconicogame\yuni_watch"
-akashic-sandbox
+akashic serve --target-service nicolive
