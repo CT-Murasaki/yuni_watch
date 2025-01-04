@@ -6,7 +6,7 @@ function main(param) {
 
 function makescene(param) {
     let mainList = []
-    let imagenum = 67;
+    let imagenum = 72;
     for (let i = 1; i <= imagenum; i++){
         mainList.push("main" + i);
     }
@@ -68,7 +68,7 @@ function makescene(param) {
                 images.invalidate();
 
                 switch (gameimage){
-                    case 1,10,42,52:
+                    case 1,10,42,52,68:
                         score += g.game.random.get(1, 10000);
                         closeingcnt += 1;
                         break;
@@ -82,7 +82,12 @@ function makescene(param) {
                         score += 10000;
                         break;
 
-                    case 15,36:
+                    case 71,72:
+                        score += 50000;
+                        closeingcnt += 1;
+                        break;
+
+                    case 15,36,69:
                         break;
 
                     default:

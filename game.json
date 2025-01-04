@@ -1,6 +1,6 @@
 {
 	"width": 1280,
-	"height": 720,
+	"height": 612,
 	"fps": 10,
 	"main": "./script/_bootstrap.js",
 	"assets": {
@@ -415,6 +415,42 @@
          "width": 595,
          "height": 612,
          "path": "image/main[67].jpg"
+      },
+"main68": {
+         "type": "image",
+         "width": 368,
+         "height": 612,
+         "path": "image/main[68].jpg"
+      },
+"main69": {
+         "type": "image",
+         "width": 382,
+         "height": 612,
+         "path": "image/main[69].jpg"
+      },
+"main70": {
+         "type": "image",
+         "width": 393,
+         "height": 612,
+         "path": "image/main[70].jpg"
+      },
+"main71": {
+         "type": "image",
+         "width": 551,
+         "height": 612,
+         "path": "image/main[71].jpg"
+      },
+"main72": {
+         "type": "image",
+         "width": 577,
+         "height": 612,
+         "path": "image/main[72].jpg"
+      },
+"main73": {
+         "type": "image",
+         "width": 530,
+         "height": 612,
+         "path": "image/main[73].jpg"
       }
 	},
    "moduleMainScripts": {},
